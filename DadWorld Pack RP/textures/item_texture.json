@@ -1,0 +1,9 @@
+{
+	"texture_data": {
+		"throwing_knife": {
+			"textures": "textures/items/throwing_knife.png"
+		}
+	},
+	"resource_pack_name": "DadWorld Pack",
+	"texture_name": "atlas.items"
+}

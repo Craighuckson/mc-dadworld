@@ -1,0 +1,83 @@
+{
+	"format_version": "1.12.0",
+	"minecraft:geometry": [
+		{
+			"description": {
+				"identifier": "geometry.weird_car",
+				"texture_width": 128,
+				"texture_height": 128,
+				"visible_bounds_width": 5,
+				"visible_bounds_height": 3.5,
+				"visible_bounds_offset": [0, 1.25, 0]
+			},
+			"bones": [
+				{
+					"name": "root",
+					"pivot": [0, 0, 0],
+					"cubes": [
+						{"origin": [-9, 15, -11], "size": [18, 13, 39], "uv": [0, 41]}
+					]
+				},
+				{
+					"name": "body",
+					"parent": "root",
+					"pivot": [0, 0, 0],
+					"cubes": [
+						{
+							"origin": [-9, 3, -24],
+							"size": [18, 12, 52],
+							"uv": {
+								"north": {"uv": [32, 32], "uv_size": [18, 12]},
+								"east": {"uv": [-20, 32], "uv_size": [52, 12]},
+								"south": {"uv": [102, 32], "uv_size": [18, 12]},
+								"west": {"uv": [50, 32], "uv_size": [52, 12]},
+								"up": {"uv": [32, -20], "uv_size": [18, 52]},
+								"down": {"uv": [50, 32], "uv_size": [18, -52]}
+							}
+						}
+					]
+				},
+				{
+					"name": "steering_wheel",
+					"parent": "body",
+					"pivot": [0, 13, -7],
+					"cubes": [
+						{"origin": [-3, 14, -9], "size": [6, 6, 2], "uv": [0, 20]}
+					]
+				},
+				{
+					"name": "wheel_front_left",
+					"parent": "root",
+					"pivot": [10, 5, -13],
+					"cubes": [
+						{"origin": [9, 0, -18], "size": [6, 10, 10], "uv": [0, 0]}
+					]
+				},
+				{
+					"name": "wheel_front_right",
+					"parent": "root",
+					"pivot": [-10, 5, -13],
+					"cubes": [
+						{"origin": [-15, 0, -18], "size": [6, 10, 10], "uv": [0, 0], "mirror": true}
+					]
+				},
+				{
+					"name": "wheel_back_left",
+					"parent": "root",
+					"pivot": [10, 5, 13],
+					"cubes": [
+						{"origin": [9, 0, 8], "size": [6, 10, 10], "uv": [0, 0]}
+					]
+				},
+				{
+					"name": "wheel_back_right",
+					"parent": "root",
+					"pivot": [-10, 5, 17],
+					"cubes": [
+						{"origin": [-15, 0, 12], "size": [6, 10, 10], "uv": [0, 0], "mirror": true}
+					]
+				}
+			]
+		}
+	]
+}

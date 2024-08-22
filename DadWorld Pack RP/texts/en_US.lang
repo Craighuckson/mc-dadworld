@@ -1,0 +1,14 @@
+pack.name=DadWorld Pack RP
+pack.description=
+item.spawn_egg.entity.dad:police_constable.name=Spawn Police Constable
+entity.dad:police_constable.name=Police Constable
+item.spawn_egg.entity.dw:police_cadet.name=Spawn Police Cadet
+entity.dw:police_cadet.name=Police Cadet
+entity.dw:police_constable.name=Police Constable
+item.spawn_egg.entity.dw:police_constable.name=Spawn Police Constable
+entity.dw:police_constable.name=Police Constable
+item.spawn_egg.entity.dw:police_constable.name=Spawn Police Constable
+entity.dw:police_constable.name=Police Constable
+item.spawn_egg.entity.dw:police_constable.name=Spawn Police Constable
+item.myname:throwing_knife=Throwing Knife
+entity.dw:weird_car.name=Weird Car
